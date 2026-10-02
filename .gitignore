@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+
+# Raw data is downloaded and checksum-verified on first run.
+data/
+
+# Per-configuration cache of the experiment runner; the merged CSVs are tracked.
+results/cache/
+results/quick/
